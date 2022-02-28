@@ -1,0 +1,12 @@
+.home{
+    background-color: var(--main-color);
+    overflow: hidden;
+    position: relative;
+    // z-index: 0;
+
+    .previewlist{
+        position: relative;
+        top: 0px;
+        // z-index: 1;
+    }
+}

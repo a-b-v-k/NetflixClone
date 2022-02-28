@@ -1,0 +1,100 @@
+.featuredloading{
+    height: 80vh;
+    position: relative;
+    top: 0;
+    color: white;
+    background-color: rgb(29, 29, 29);
+}
+
+.featured{
+    height: 90vh;
+    position: relative;
+    top: 0px;
+
+    .category{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+
+        select{
+            margin-left: 20px;
+            cursor: pointer;
+            background-color: var(--main-color);
+            border: 1px solid white;
+            color: white;
+            padding: 5px;
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .bottomgradient{
+        color: white;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+        background: linear-gradient(to top, #0f0f0f 0%, transparent 100%);
+        width: 100%;
+    }
+
+    .info{
+        width: 35%;
+        position: absolute;
+        left: 50px;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 400px;
+            height: 100px;
+        }
+
+        .desc{
+            margin: 20px 0px;
+            //width: 400px;
+            color: white;
+        }
+
+        .buttons{
+            display: flex;
+            
+            button{
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                font-weight: 600;
+                margin-right: 10px;
+                cursor: pointer;
+
+                &.play{
+                    background-color: white;
+                    color: var(--main-color);
+                }
+
+                &.more{
+                    background-color: grey;;
+                    color: white;
+                }
+
+                span{
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

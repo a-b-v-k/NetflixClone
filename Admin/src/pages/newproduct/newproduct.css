@@ -1,0 +1,114 @@
+.newproduct{
+    flex: 4;
+}
+
+.addproductform{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.addproductitem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.addproductitem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.addproductitem>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.addproductgender>input{
+    margin-top: 5px;
+}
+
+.addproductgender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.addproductselect{
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    padding-left: 7px;
+}
+
+.addproductbutton{
+    width: 150px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.addproductbutton:disabled{
+    width: 150px;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.473);
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.addproductfile{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.addproductfile>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.addproductfile>input{
+    height: 20px;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+.loading{
+    align-items: center;
+}
+
+.load{
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+.progress{
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(106, 106, 248);
+}

@@ -1,0 +1,128 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    position: relative;
+    background-size: cover;
+
+    .top{
+        position: relative;
+        z-index: 2;
+        .wrapper{
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo{
+                height: 40px;
+            }
+        }
+    }
+
+    .container{
+        color: white;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .wrapper{
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 50px 60px 70px 60px;
+            display: flex;
+            width: 320px;
+            flex-direction: column;
+
+            h1{
+                margin-bottom: 20px;
+            }
+
+            input{
+                color: white;
+            }
+
+            input[type="text"]{
+                margin-bottom: 20px;
+                width: 300px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: rgb(51, 51, 51);
+                border: none;
+                padding-left: 20px;
+                font-size: 15px;
+            }
+
+            input[type="password"]{
+                margin-bottom: 20px;
+                width: 300px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: rgb(51, 51, 51);
+                border: none;
+                padding-left: 20px;
+                font-size: 15px;
+            }
+            .signin{
+                margin-bottom: 20px;
+                width: 322px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: rgb(229, 9, 20);
+                color: white;
+                border: none;
+                padding-left: 20px;
+                font-size: 17px;
+                font-weight:700;
+                cursor: pointer;
+            }
+
+            .buttonbottom{
+                display: flex;
+                justify-content: space-between;
+                color: rgb(179, 179, 179);
+                font-size: 13px;
+
+                .remember{
+                    display: flex;
+                    align-items: center;
+                    
+                    span{
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            .bottom{
+                color: grey;
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+                // justify-content: space-between;
+                height: 50px;
+
+                .b1{
+                    display: flex;
+                    flex-direction: row;
+                    // margin-top: 15px;
+
+                    .signup{
+                        margin-left: 5px;
+                        color: white;
+                    }
+                }
+
+                p{
+                    font-size: 13px;
+                    margin-top: 15px;
+                }
+            }
+        }
+
+    }
+}
